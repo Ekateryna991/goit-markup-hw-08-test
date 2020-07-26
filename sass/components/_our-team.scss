@@ -1,0 +1,84 @@
+@import '../utils/placeholder';
+
+.container {
+  @extend %container;
+}
+
+.section {
+  @extend %section;
+}
+
+.team-photo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.team-title {
+  @extend %team-title;
+}
+
+.team-text {
+  @extend %team-text;
+}
+
+.list {
+  @extend %list;
+}
+
+.team-person {
+  display: flex;
+}
+
+.person-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.social-icon {
+  @extend %social-icon;
+}
+
+.icon-social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: #afb1b8;
+
+  transition-property: background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+
+  &:hover {
+    background-color: $primary-accent-color;
+    fill: $primary-bg-color;
+  }
+
+  &:focus {
+    background-color: $primary-accent-color;
+    fill: $primary-bg-color;
+  }
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-link-list {
+  margin-right: 10px;
+  padding-bottom: 24px;
+
+  &:last-child {
+    margin-right: 32;
+  }
+
+  &:first-child {
+    margin-left: 32px;
+  }
+}
+
+.contact {
+  margin-left: auto;
+}

@@ -1,0 +1,13 @@
+.container {
+  @extend %margin-auto;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.company-title {
+  @extend %margin-auto;
+  width: 696px;
+}

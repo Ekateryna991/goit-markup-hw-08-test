@@ -1,0 +1,48 @@
+.section {
+  @extend %section;
+}
+
+.section-title {
+  @extend %section-title;
+}
+
+.aboutus-item {
+  display: flex;
+}
+
+.aboutus {
+  padding-top: 0px;
+}
+
+.list .product:not(:first-child) {
+  margin-left: 30px;
+}
+
+.list-item-aboutus {
+  //   margin-top: 0;
+  //   margin-bottom: 0;
+  @extend %margin;
+
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0px;
+  padding-top: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-bg-color;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.product {
+  position: relative;
+}
+
+.product-image {
+  display: block;
+}

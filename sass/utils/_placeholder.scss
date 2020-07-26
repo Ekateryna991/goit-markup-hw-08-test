@@ -1,0 +1,139 @@
+%section-size {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+%margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%margin {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+%aktcent {
+  color: $primary-accent-color;
+}
+
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+%container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+%button {
+  color: $primary-bg-color;
+  background-color: $primary-accent-color;
+  font-family: inherit;
+
+  border-radius: 4px;
+  min-width: 200px;
+  border: 1px solid transparent;
+
+  display: inline-block;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+%text-header {
+  font-family: Roboto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+%section-title {
+  color: $primary-text-color;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+%section-subtitle {
+  color: $primary-text-color;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+%advantage-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: $secondary-text-color;
+}
+
+%team-title {
+  color: $primary-text-color;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+%team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+%social-icon {
+  display: block;
+  background-color: $primary-bg-color;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-size: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
