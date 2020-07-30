@@ -27,7 +27,9 @@
 }
 
 .team-person {
-  display: flex;
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .person-item:not(:first-child) {

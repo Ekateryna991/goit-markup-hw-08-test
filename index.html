@@ -19,6 +19,36 @@
       <div class="main container">
         <nav class="nav">
           <a href="" class="logo"><span class="aktcent">Web</span> Studio</a>
+          <!-- <ul class="site-nav list"> 
+            <li class="item">
+              <a href="" class="link-nav current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link-nav">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="" class="link-nav">Контакты</a>
+            </li>
+          </ul>-->
+         
+        </nav>
+
+        <div class="menu-mobile">
+          <button type="button" 
+                  class="menu-button is-open" 
+                  aria-expanded="true"
+                  aria-controls="menu-container" 
+                  data-menu-button>
+            <svg width="24px" height="16px" aria-label="Переключатель мобильного меню">
+              <use class="icon-close_menu" href="./img/sprite.svg#icon-close_mobile">
+              </use>
+              <use class="icon-menu" href="./img/sprite.svg#icon-menu">
+              </use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="menu-container" id="menu-container" data-menu>
           <ul class="site-nav list">
             <li class="item">
               <a href="" class="link-nav current">Студия</a>
@@ -30,8 +60,8 @@
               <a href="" class="link-nav">Контакты</a>
             </li>
           </ul>
-        </nav>
-        <ul class="contact list">
+        </div>
+        <!-- <ul class="contact list"> 
           <li class="item">
             <a href="" class="link-contact">
               <svg class="email-icon">
@@ -49,7 +79,7 @@
               </svg>
               +38 096 111 11 11</a>
           </li>
-        </ul>
+        </ul>-->
       </div>
     </header>
 
@@ -553,6 +583,7 @@
   
 
     <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
 
     <script>
       (() => {

@@ -1,10 +1,19 @@
+@import '../utils/breakpoints';
+
 .container {
-  @extend %margin-auto;
-  //   margin-left: auto;
-  //   margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  @extend %container;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: $tablet;
+  }
+
+  @media screen and (min-width: 1600px) {
+    width: $desktop;
+  }
 }
 
 .company-title {

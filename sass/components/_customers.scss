@@ -15,10 +15,6 @@
   align-items: center;
   justify-content: space-between;
 
-  //   .item:first-child {
-  // height: 90px;
-  //   }
-
   .item:not(:last-child) {
     margin-right: 30px;
   }

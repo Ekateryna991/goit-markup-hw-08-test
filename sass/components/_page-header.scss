@@ -1,10 +1,55 @@
 @import '../utils/placeholder';
 
 .main {
+  position: relative;
   display: flex;
   align-items: center;
 
   border-bottom: 1px solid #ececec;
+}
+
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+
+  & .icon-close_menu {
+    display: none;
+  }
+}
+
+.menu-button.is-open .icon-close_menu {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.menu-mobile {
+  margin-left: auto;
+}
+
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  padding: 60px;
+  text-align: center;
+  font-size: 18px;
+  background-color: tomato;
+
+  &.is-open {
+    display: block;
+  }
 }
 
 .list {
